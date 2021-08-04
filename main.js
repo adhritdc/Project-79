@@ -22,7 +22,7 @@ function add_item(){
     menu_list_array.sort();
     htmldata="<section class='cards'>";
     for(var i=0;i<menu_list_array.length;i++){
-        htmldata=htmldata+'<div class="card">'+'<img src="images/pizzaimg.png" style="width: 100px; height:80px;"/>'+menu_list_array[i]+'</div>';
+        htmldata=htmldata+'<div class="card">'+'<img src="images/pizzaImg.png" style="width: 100px; height:80px;"/>'+menu_list_array[i]+'</div>';
     }
     htmldata=htmldata+"</section>"
     document.getElementById("display_addedmenu").innerHTML = htmldata;
